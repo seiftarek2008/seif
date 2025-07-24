@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>More About Us</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #d1f5d3, #a8e6b5, #ffffff);
+      background-attachment: fixed;
+      background-size: cover;
+      color: #2c3e50;
+      text-align: center;
+    }
+
+    .image-container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .img1, .img2 {
+      display: flex;
+      justify-content: center;
+      gap: 70px;
+      margin-bottom: 70px;
+      flex-wrap: wrap;
+    }
+
+    .image-with-caption {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image-with-caption img {
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+      transition: transform 0.4s ease, filter 0.4s ease;
+      height: 400px;
+      width: 260px;
+    }
+
+    .image-with-caption img:hover {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+    }
+
+    .caption {
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 8px 14px;
+      border-radius: 12px;
+      color: #2c3e50;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 40px;
+      color: #00796b;
+      background-color: #ffffffcc;
+      padding: 12px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      background-color: #b2dfdb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <h2>What We Did</h2>
+
+    <div class="img1">
+      <div class="image-with-caption">
+        <img src="4.jpg" alt="Image 4">
+        <div class="caption">we had planted +300 plant</div>
+      </div>
+      <div class="image-with-caption">
+        <img src="5.jpg" alt="Image 5">
+        <div class="caption">we work to decrease the co2 in atm</div>
+      </div>
+    </div>
+
+    <div class="img2">
+      <div class="image-with-caption">
+        <img src="7.jpg" alt="Image 7">
+        <div class="caption">we did +20 poster to awarne people</div>
+      </div>
+      <div class="image-with-caption">
+        <img src="10.jpg" alt="Image 10">
+        <div class="caption">we have devolped our orgnization and we aims more.</div>
+      </div>
+    </div>
+
+    <a href="#">go up</a>
+    <a href="file:///D:/web%20devolpment%20(1)/index%20(1).html">go back</a>
+  </div>
+
+</body>
+</html>
